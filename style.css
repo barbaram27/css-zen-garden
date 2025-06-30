@@ -1,28 +1,35 @@
-/* Tema Round 6 - CSS Zen Garden */
-
 body {
   background-color: #111111;
   color: #e0e0e0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 0 20px;
+  font-family: Arial, sans-serif;
+  padding: 20px;
 }
 
-header {
-  text-align: center;
-  padding: 40px 0;
-  border-bottom: 2px solid #e50914;
-}
-
-h1 {
+h1, h2, h3 {
   color: #e50914;
-  font-size: 3em;
-  margin: 0;
 }
 
-h2 {
-  color: #e0e0e0;
-  font-weight: normal;
+a.button {
+  background-color: #e50914;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+a.button:hover {
+  background-color: #b40610;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.8em;
+  color: #888;
+}
+
   margin-top: 10px;
 }
 
