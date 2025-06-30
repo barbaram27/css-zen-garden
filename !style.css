@@ -1,0 +1,41 @@
+/* 1. Aspectos gerais */
+body {
+  width: 1200px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+p {
+  text-indent: 1em;
+}
+
+/* 2. Títulos */
+h1, h2, h3 {
+  text-align: center; /* você pode trocar por 'right' se quiser */
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+/* 3. Seções de resumo e principal */
+.summary {
+  text-align: center;
+}
+
+#zen-supporting p {
+  line-height: 1.5;
+}
+
+/* 4. Abreviaturas */
+abbr {
+  font-variant: small-caps;
+}
